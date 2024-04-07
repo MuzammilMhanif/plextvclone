@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: transparent;
+}
+
+#navbar-logo{
+    font-size: 45px;
+    font-weight: 600;
+}
+.navbar ul li a {
+    font-size: 19px;
+}
+.navbar ul li a:hover {
+    color: orange;
+}
+.main-section {
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(24, 22, 22);
+    background-blend-mode: overlay;
+    height: 90vh;
+}
+#signin-btn {
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+}
+#signin-btn:hover {
+    color: orange;
+}
+#signup-btn {
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 19px;
+}
+#signup-btn:hover {
+    color:orange;
+    background-color: transparent;
+    border-color: white;
+}
+#livetv-menu:hover {
+    color: orange;
+}
+/* ShowCase */
+#showcase {
+    color: white;
+    width: 100%;
+}
+
+#showcase h1 {
+    font-size: 60px;
+    font-weight: bold;
+    width: 100;
+    letter-spacing: 2px;
+}
+
+#showcase p {
+    font-size: 27px;
+}
+#showcase-btn {
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight:700;
+}
+#showcase-btn:hover {
+    color: orange;
+    background-color: transparent;
+    border-color: white;
+}
+/* Offer Section  */
+
+.offer-section img {
+    width: 20%;
+}
+.offer-section h1 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Save Pause Resume */
+.offer-sec-2 {
+    background-color: rgb(243, 241, 239);
+}
+.offer-sec-2 img {
+    width: 86%;
+}
+.offer-sec-2 h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+.offer-sec-2 p {
+    width: 90%;
+}
+.offer-sec-2 .btn {
+    color: white;
+    background-color: orange;
+    padding: 8px 22px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight:700;
+}
+.offer-sec-2 .btn:hover {
+    color: orange;
+    background-color: transparent;
+    border-color: black;
+}
+
+/* SlideShow CSS */
+
+.slide-show {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+.slide-show img {
+    background-position: center;
+    width: 40%;
+}
+
+/* Steam Video Section CSS */
+#streamvideo-section {
+    background-color: rgb(169, 48, 250);
+     color: white;
+}
+.video-player {
+    position: relative;
+    overflow: hidden;
+}
+.video {
+    width: 100%;
+    height: auto;
+}
+.play-btn {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    padding: 25px 30px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: white;
+    color: none;
+}
+/* Device Compatible Section */
+
+#device-section1 img{
+    width: 50%;
+
+}
+#device-section1 p {
+    width: 90%;
+}
+
+#device-section2 img{
+width: 100%;
+}
+#streamnow-btn {
+    color: white;
+    background-color: orange;
+    padding: 6px 13px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight:700;   
+}
+
+.company-sec {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(216, 213, 208);
+}
+.company-sec img {
+    width: 15%;
+    padding: 0px 7px;
+    margin-bottom: 5%;
+}
+/* footer */
+footer li a{
+    color: rgb(197, 218, 216);
+    text-decoration: none;
+    font-size: 14px;
+}
+footer li a:hover {
+    color: orange;
+}
+footer p {
+    color: white;
+}
